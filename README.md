@@ -1,4 +1,5 @@
-# vue-project
+# vue-app
+A Vue3 Beta App
 
 ## Project setup
 ```

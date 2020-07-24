@@ -47,10 +47,10 @@ down:
 reset: down rebuild
 
 ash-root:
-	docker exec -it weather-frontend /bin/ash
+	docker exec -it vue-app /bin/ash
 
 ash-node:
-	docker exec -it --user=node weather-frontend /bin/ash
+	docker exec -it --user=node vue-app /bin/ash
 
 # #################################################################################################################### #
 # The following section of this file contains only commands that should be accessible INSIDE Docker containers

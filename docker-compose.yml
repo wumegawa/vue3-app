@@ -1,8 +1,8 @@
 version: '3.3'
 
 services:
-  weather-frontend:
-    container_name: weather-frontend
+  vue-app:
+    container_name: vue-app
     build: .
     volumes:
       - .:/app
